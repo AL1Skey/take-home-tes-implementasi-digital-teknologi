@@ -1,0 +1,125 @@
+/* 4.8 Slide Clients */
+
+.client-list {
+	margin-top: 4.125rem;
+}
+
+.client-item {
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	margin-top: 2.5rem;
+	
+}
+
+.client-item:first-child {
+	margin-top: 0;
+}
+
+.client-item-value {
+	width: 10.5rem;
+	padding-right: 1.875rem;
+	font-size: 3.125rem;
+	line-height: 1;
+	font-weight: 600;
+	color: #78acd9;
+}
+
+.client-item-title {
+	margin-bottom: 3px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 1.125rem;
+}
+
+.client-item-descr {
+	font-size: .875rem;
+	color: #234969;
+}
+
+
+
+.slide-photo-clients {
+	height: 0;
+	padding-bottom: 92.10526316%;
+	margin-top: 3.125;
+	
+}
+
+.card8-1 {
+	width: 37.19298246%;
+	left: 29.82456140%;
+	top: 27.04761905%;
+	z-index: 100;
+	box-shadow: rgba(11,53,92,.15) 4.375rem 4.375rem 3.75rem;
+}
+
+.card8-1 .image-card-body > .inside {
+	width: 55.66037736%;
+}
+
+.card8-2 {
+	width: 15.96491228%;
+	left: 53.68421053%;
+	top: 0%;
+	box-shadow: rgba(11,53,92,.1) 1.375rem 1.375rem 3.75rem;
+}
+
+.card8-2 .image-card-body > .inside {
+	width: 54.94505495%;
+}
+
+.card8-3 {
+	width: 29.82456140%;
+	left: 78.94736842%;
+	top: 2.47619048%;
+	box-shadow: rgba(11,53,92,.1) 1.375rem 1.375rem 3.75rem;
+}
+
+.card8-3 .image-card-body > .inside {
+	width: 78.82352941%;
+}
+
+.card8-4 {
+	width: 19.29824561%;
+	left: 8.77192982%;
+	top: 6.09523810%;
+	box-shadow: rgba(11,53,92,.1) 2.5rem 2.5rem 3.75rem;
+}
+
+.card8-4 .image-card-body > .inside {
+	width: 51.81818182%;
+}
+
+.card8-5 {
+	width: 18.77192982%;
+	left: 29.82456140%;
+	top: 79.61904762%;
+	box-shadow: rgba(11,53,92,.1) 1.875rem 1.875rem 3.75rem;
+}
+
+.card8-5 .image-card-body > .inside {
+	width: 72.89719626%;
+}
+
+.card8-6 {
+	width: 18.07017544%;
+	left: 7.89473684%;
+	top: 44.95238095%;
+	box-shadow: rgba(11,53,92,.1) 1.875rem 1.875rem 3.75rem;
+}
+
+.card8-6 .image-card-body > .inside {
+	width: 65.04854369%;
+}
+
+.card8-7 {
+	width: 20.70175439%;
+	left: 70.17543860%;
+	top: 67.61904762%;
+	box-shadow: rgba(11,53,92,.1) 1.875rem 1.875rem 3.75rem;
+}
+
+.card8-7 .image-card-body > .inside {
+	width: 53.38983051%;
+}

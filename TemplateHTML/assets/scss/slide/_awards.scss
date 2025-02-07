@@ -1,0 +1,66 @@
+/* 4.6 Slide Awards */
+
+.reward-list {
+	margin-top: 4.0625rem;
+}
+
+.reward-item {
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	margin-top: 2.5rem;
+}
+
+.reward-item:first-child {
+	margin-top: 0;
+}
+
+.reward-item-photo {
+	width: 10.5rem;
+	flex: 0 0 auto;
+	padding-right: 1.875rem;
+	text-align: center;
+}
+
+.reward-item-title {
+	margin-bottom: 3px;
+	margin-right: -1rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 1.125rem;
+}
+
+.reward-item-descr {
+	font-size: .875rem;
+	color: #234969;
+}
+
+.slide-photo6 {
+	padding-top: 1.875rem;
+}
+
+.slide-photo6 > .inside {
+	width: 93.50877193%;
+	margin-left: 3.50877193%;
+}
+
+.card6-1 {
+	width: 14.03508772%;
+	left: 6.31578947%;
+	top: 0;
+}
+
+.card6-1 .image-card-body > .inside {
+	width: 45%;
+}
+
+.card6-2 {
+	width: 26.31578947%;
+	left: 2.63157895%;
+	top: 62.59259259%;
+	top: 64.34697855%;
+}
+
+.card6-2 .image-card-body > .inside {
+	width: 56%;
+}

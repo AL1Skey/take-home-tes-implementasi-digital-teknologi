@@ -1,0 +1,91 @@
+@use "../mixins" as *;
+
+/* 4.3 Slide Skills */
+
+.bar-list {
+	margin-top: 3rem;
+}
+
+.bar-item {
+	margin-bottom: 1.125rem;
+}
+
+.bar-item-title,
+.bar-item-value {
+	margin-bottom: .6875rem;
+}
+
+.bar-item-title {
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+.bar-item-value {
+	padding-top: 2px;
+	font-size: .875rem;
+}
+
+.progress {
+	height: .875rem;
+	border-radius: .4375rem;
+}
+
+.progress-bar {
+	background-color: #75a9d6;
+}
+
+.progress-bar {
+	position: relative;
+	width: 0;
+	transition: width 1s ease-in-out;
+	transition-delay: 1.5s;
+}
+
+.card3-1 {
+	position: relative;
+	width: 77.89473684%;
+}
+
+.card3-1 .image-card-body > .inside {
+	width: 86.71171171%;
+}
+
+.card3-2 {
+	width: 18.42105263%;
+	left: -3.50877193%;
+	top: -4px;
+}
+
+.card3-2 .image-card-body > .inside {
+	width: 65%;
+}
+
+.card3-3 {
+	width: 35.08771930%;
+	right: 8.07017544%;
+	top: -12.16216216%;
+	box-shadow: rgba(16,39,91,.1) 1.375rem 1.375rem 3.75rem;
+}
+
+.card3-3 .image-card-body > .inside {
+	width: 52.5%;
+}
+
+.card3-4 {
+	width: 20.87719298%;
+	right: 4.91228070%;
+	top: 82.88288288%;
+	z-index: -1;
+	box-shadow: rgba(11,53,92,.1) 1.875rem 1.875rem 3.75rem;
+}
+
+.card3-4 .image-card-body > .inside {
+	width: 58.82352941%;
+}
+
+/* edited */
+.slide-skills .slide-photo {
+	@include media-breakpoint-down(sm) {
+		margin-bottom: 5rem;
+	}
+}

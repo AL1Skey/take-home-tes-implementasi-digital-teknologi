@@ -1,0 +1,26 @@
+
+
+@use "global";
+@use "preloader";
+
+@use "header";
+
+@use "content";
+
+// Slide
+@use "slide/about";
+@use "slide/services";
+@use "slide/skills";
+@use "slide/resume";
+@use "slide/portofolio";
+@use "slide/awards";
+@use "slide/testimonials";
+@use "slide/clients";
+@use "slide/contact";
+
+@use "footer";
+
+@use "modal";
+@use "dark";
+@use "intro";
+@use "custom";

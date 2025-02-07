@@ -1,0 +1,93 @@
+/* ------------------------------------------------------------------------------
+
+  Template Name: Lewis
+  Description: Ethant Hunt HTML Template
+  Author: Paul
+  Author URI: http://themeforest.net/user/paul_tf
+
+  1.  Global
+
+    1.1 General
+    1.2 Typography
+    1.3 Animation
+    1.4 Icons
+    1.5 Buttons
+    1.6 Forms
+
+  2.  Preloader
+  3.  Header
+  4.  Content
+
+	  4.1 Slide About
+	  4.2 Slide Services
+	  4.3 Slide Skills
+	  4.4 Slide Resume
+	  4.5 Slide Portfolio
+	  4.6 Slide Awards
+	  4.7 Slide Testimonials
+	  4.8 Slide Clients
+	  4.9 Slide Contact
+
+  5.  Footer
+  6.  Modal
+  7.  Dark Theme
+  8. Intro
+
+*/
+
+/*-------------------------------------------------------------------------------
+  1. Global
+-------------------------------------------------------------------------------*/
+
+/* 1.1 General */
+
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700&display=swap');
+
+html {
+  font-size: 12px;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  color: #1f2044;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+}
+
+::selection {
+  background-color: #fcf1e7;
+  color: #1f2044;
+  text-shadow: none;
+}
+
+-webkit-::selection {
+  background-color: #fcf1e7;
+  color: #1f2044;
+  text-shadow: none;
+}
+
+::-moz-selection {
+  background-color: #fcf1e7;
+  color: #1f2044;
+  text-shadow: none;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  cursor: pointer;
+  background: #2e2e2e;
+}
+
+img {
+	max-width: 100%;
+}

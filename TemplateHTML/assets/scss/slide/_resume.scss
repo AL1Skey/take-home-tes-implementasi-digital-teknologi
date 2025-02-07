@@ -1,0 +1,82 @@
+@use "../mixins" as *;
+
+/* 4.4 Slide Resume */
+
+.slide-photo-education,
+.slide-photo-experience {
+	margin-bottom: 2.1875rem;
+}
+
+.slide-photo-bg-rounded {
+	padding: 14.59459459% 14.32432432% 2.70270270%;
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+	background-size: contain;
+	width: 80%;
+}
+
+.photo-bg-education {
+	background-image: url("../img/slide4-1-bg.png");
+}
+
+.education-image {
+	margin-top: 7.19696970%;
+	margin-left: 4.16666667%;
+	width: 81.43939394%;
+}
+
+.photo-bg-experience {
+	background-image: url("../img/slide4-2-bg.png");
+}
+
+.experience-image {
+	margin-top: 4.92424242%;
+	margin-left: 12.5%;
+	width: 82.57575758%;
+}
+
+.slide-photo-bg-rounded > .inside {
+	display: block;
+	height: 0;
+	padding-bottom: 100%;
+	overflow: hidden;
+	border-radius: 100%;
+	background-color: #ffffff;
+}
+
+.vacancy-item {
+	margin-bottom: 1.75rem;
+}
+
+.vacancy-item-title {
+	margin-bottom: .8125rem;
+	font-size: 1.125rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.vacancy-item-title a {
+	color: inherit;
+}
+
+.vacancy-item-place,
+.vacancy-item-time {
+	line-height: 1.625;
+	font-size: 1rem;
+}
+
+.vacancy-item-place {
+	font-weight: 600;
+}
+
+.vacancy-item-text {
+	margin-top: .5rem;
+	font-size: .875rem;
+	line-height: 1.71428571;
+
+  #text-resume-2 & {
+    @include media-breakpoint-down(sm) {
+      margin-bottom: 5rem;
+    }
+  }
+}
