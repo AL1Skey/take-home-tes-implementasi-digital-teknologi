@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
-  plugins: ['/plugins/script.js'],
+
   app: {
     head: {
       title: 'VictoryStudio',
@@ -81,17 +81,17 @@ export default defineNuxtConfig({
           `,
           type: 'text/javascript'
         },
-        { src: 'https://code.jquery.com/jquery-1.12.4.min.js', async:true, defer: true },
-        { src: 'assets/js/smoothscroll.js', defer: true },
-        { src: 'assets/js/popper.min.js', defer: true },
-        { src: 'assets/js/bootstrap.min.js', defer: true },
-        { src: 'assets/js/owl.carousel.min.js', defer: true },
-        { src: 'assets/js/jquery.pagepiling.min.js', defer: true },
-        { src: 'assets/js/jquery.viewport.js', defer: true },
-        { src: 'assets/js/jquery.countdown.min.js', defer: true },
-        { src: 'assets/js/typed.min.js', defer: true },
-        { src: 'assets/js/parallax.min.js', defer: true },
-        { src: 'assets/js/jquery.validate.min.js', defer: true },
+        // { src: 'https://code.jquery.com/jquery-1.12.4.min.js', async:true, defer: true },
+        // { src: 'assets/js/smoothscroll.js', defer: true },
+        // { src: 'assets/js/popper.min.js', defer: true },
+        // { src: 'assets/js/bootstrap.min.js', defer: true },
+        // { src: 'assets/js/owl.carousel.min.js', defer: true },
+        // { src: 'assets/js/jquery.pagepiling.min.js', defer: true },
+        // { src: 'assets/js/jquery.viewport.js', defer: true },
+        // { src: 'assets/js/jquery.countdown.min.js', defer: true },
+        // { src: 'assets/js/typed.min.js', defer: true },
+        // { src: 'assets/js/parallax.min.js', defer: true },
+        // { src: 'assets/js/jquery.validate.min.js', defer: true },
       ]
     }
   },
@@ -99,6 +99,6 @@ export default defineNuxtConfig({
   nitro: {
     static: true // Memastikan file static dari public dilayani
   },
-
-  modules: ['@nuxt/image']
+  // ssr:false,
+  modules: ['@nuxt/image', '@nuxt/scripts']
 })

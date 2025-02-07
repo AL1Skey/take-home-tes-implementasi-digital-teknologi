@@ -1,15 +1,36 @@
-<script lang="js" setup>
+<script lang="ts" setup>
+import { onMounted } from 'vue';
 
+
+const loading = ref(true);
+onMounted(async() => {
+  loading.value = false;
+  await useScript( {src:'https://code.jquery.com/jquery-1.12.4.min.js',async: true, defer: true });
+  await useScript( {src:'/assets/js/jquery.validate.min.js', async: true, defer: true });
+  await useScript( {src:'/assets/js/jquery.pagepiling.min.js', async: true, defer: true });
+  await useScript( {src:'/assets/js/jquery.viewport.js', async: true, defer: true });
+  await useScript( {src:'/assets/js/jquery.countdown.min.js', async: true, defer: true });
+  await useScript( {src:'/assets/js/smoothscroll.js', async: true, defer: true });
+  await useScript( {src:'/assets/js/popper.min.js', async: true, defer: true });
+  await useScript( {src:'/assets/js/bootstrap.min.js', async: true, defer: true });
+  await useScript( {src:'/assets/js/owl.carousel.min.js', async: true, defer: true });
+  await useScript( {src:'/assets/js/typed.min.js', async: true, defer: true });
+  await useScript( {src:'/assets/js/parallax.min.js', async: true, defer: true });
+  await useScript( {src:'/assets/js/script.js', async: true, defer: true });
+});
 </script>
 
 <template>
-      <div class="body-piling">
+      <div v-if="loading" class="flex items-center justify-center min-h-screen">
+        <div class="animate-spin rounded-full h-32 w-32 border-t-2 border-b-2 border-blue-500"></div>
+      </div>
+      <div class="body-piling" v-if="!loading">
     <div class="wrapper">
         <MainHeader />
       
         <MainContent/>
 
-      <Footer/>
+        <Footer/>
 
       <div class="progress-nav">
         <ul id="menu">
@@ -38,8 +59,8 @@
       </div>
     </div>
 
-
-    <Script src="assets/js/script.js" defer></Script>
+    <!-- JavaScript files are now loaded with defer for non-critical blocking -->
+    <!-- Removed jQuery fallback document.write -->
 </div>
 </template>
 

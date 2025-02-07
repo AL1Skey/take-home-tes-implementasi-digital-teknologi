@@ -32,7 +32,7 @@
           <div class="col-lg-8">
             <div class="animate-element delay5 fadeInUp">
               <div class="title-mini text-primary"></div>
-              <h1 class="slide-title font-custom" id="text-about-1">Kami Membantu Perusahaan Anda Tumbuh Secara <span class="text-typed a-typed a-typed-about" data-text="Eksponensial" style=color:#ffffff></span><br />  </h1>
+              <h1 class="slide-title font-custom" id="text-about-1">Kami Membantu Perusahaan Anda Tumbuh Secara <span class="text-typed a-typed a-typed-about" data-text="Eksponensial" style=color:#ffffff>Eksponensial</span><br />  </h1>
             </div>
             <div class="slide-descr animate-element delay7 fadeInUp" id="text-about-2">Kami Siap membantu Anda <strong>membangun Impian anda menjadi kenyataan</strong> dan <strong>mengembangkan jangkauan bisnis Anda.</strong> Kami membuat <strong>Aplikasi mobile, Website, Video, Animasi & 3D</strong> yang menarik, dan membuat bisnis anda lebih mudah dikenal.</div>
             <div class="slide-photo slide-photo-about">
@@ -72,6 +72,7 @@
                 <li class="primary-link"><a href="https://api.whatsapp.com/send?phone=6281930456886&text=Halo%20saya%20tertarik%20dengan%20jasa%20pembuatan%20aplikasi.">Mobile Apps</a></li>
                 <li class="primary-link"><a href="https://api.whatsapp.com/send?phone=6281930456886&text=Halo%20saya%20tertarik%20dengan%20jasa%20pembuatan%20website.">Website</a></li>
                 <li class="primary-link"><a href="https://api.whatsapp.com/send?phone=6281930456886&text=Halo%20saya%20tertarik%20dengan%20jasa%20pembuatan%20video.">Video</a></li>
+                <li class="primary-link"><a href="https://api.whatsapp.com/send?phone=6281930456886&text=Halo%20saya%20tertarik%20dengan%20jasa%20editing%20video.">Editing Video</a></li>
                 <li class="primary-link"><a href="https://api.whatsapp.com/send?phone=6281930456886&text=Halo%20saya%20tertarik%20dengan%20jasa%20pembuatan%20animasi.">Animasi</a></li>
                 <li class="primary-link"><a href="https://api.whatsapp.com/send?phone=6281930456886&text=Halo%20saya%20tertarik%20dengan%20jasa%20pembuatan%20video%203D.">3D </a></li>
                 <li class="primary-link"><a href="https://api.whatsapp.com/send?phone=6281930456886&text=Halo%20saya%20tertarik%20dengan%20jasa%20pembuatan%20desain.">Desain </a></li>

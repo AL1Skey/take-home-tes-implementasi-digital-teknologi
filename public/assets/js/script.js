@@ -1,3 +1,4 @@
+
 /*----------------------------------------------------------------
 
 	Template Name: Ethant Hunt - HTML Template 
@@ -18,10 +19,9 @@
 	__ End Js Activation
 
 ***************************************************************/
-
 (function ($) {
 	'use strict';
-
+	
 	/*-------------------------------------------------------------------------------
 	  Preloader
 	-------------------------------------------------------------------------------*/
@@ -36,8 +36,6 @@
 		}
 	});
 
-
-
 	/*-------------------------------------------------------------------------------
 	  Menu
 	-------------------------------------------------------------------------------*/
@@ -50,8 +48,6 @@
 		}
 	});
 
-
-
 	/*-------------------------------------------------------------------------------
 	  Pagepiling
 	-------------------------------------------------------------------------------*/
@@ -60,7 +56,6 @@
 		$('.a-pagepiling').pagepiling({
 			scrollingSpeed: 280,
 			menu: '#menu, #menuMain',
-			// anchors: ['About', 'Services', 'Skills', 'Resume', 'Portfolio', 'Clients', 'Awards', 'Contact', 'Testimonials'],
 			anchors: ['About', 'Services', 'Skills', 'Resume', 'Portfolio', 'Clients', 'Contact'],
 			loopTop: false,
 			loopBottom: false,
@@ -83,47 +78,18 @@
 					$('html').removeClass('body-menu-opened').addClass('body-menu-close');
 				}
 
-        // var bgColor = $('.navbar-m').css('background-color');
-				// if (bgColor = "#ffffff") {
-				// 	$(".navbar-m").css("background-color", "#fafafa");
-				// } else {
-				// 	$(".navbar-m").css("background-color", "#ffffff");
-				// }
-
 				removeHash();
 			}
 		});
 	}
 
-
-
 	/*-------------------------------------------------------------------------------
 	  Remove Anchor
 	-------------------------------------------------------------------------------*/
 
-	// when the DOM is ready
-    // $(document).ready(function() {
-		// get the anchor link buttons
-		// const menuBtn = $('.btn-menu');
-		// // when each button is clicked
-		// menuBtn.click(()=>{	
-		// 	// call removeHash function after set timeout
-		// 	removeHash();
-		// });
-
-		// or
-		$('.btn-menu').on('click', function() {
-			removeHash();
-		});
-	// });
-	
-	// removeHash function
-		// uses HTML5 history API to manipulate the location bar
 	function removeHash(){
 		history.replaceState('', document.title, window.location.origin + window.location.pathname + window.location.search);
 	}
-
-
 
 	/*-------------------------------------------------------------------------------
 	  Typed Text
@@ -154,8 +120,6 @@
 		typedText();
 	});
 
-
-
 	/*-------------------------------------------------------------------------------
 	  Parallax
 	-------------------------------------------------------------------------------*/
@@ -164,8 +128,6 @@
 		var scene = document.getElementById('a-parallax');
 		var parallax = new Parallax(scene);
 	}
-
-
 
 	/*-------------------------------------------------------------------------------
 	  Carousels
@@ -180,10 +142,7 @@
 			autoplay: true,
 			loop: true,
 			autoplayHoverPause: true,
-			
-			// edit dots to false doesnt work
 			dots: false,
-			
 			nav: false,
 			dotData: false,
 			responsive:{
@@ -199,20 +158,6 @@
 			}
 		});
 	}
-
-// 	if ( $('.a-testimonial-carousel').length ) {
-// 		var owl = $('.a-testimonial-carousel');
-// 		owl.owlCarousel({
-// 			items: 1,
-// 			smartSpeed: 750,
-// 			margin: 30,
-// 			autoplayHoverPause: true,
-// 			dots: true,
-// 			nav: false
-// 		});
-// 	}
-
-
 
 	/*-------------------------------------------------------------------------------
 	  Ajax Forms
@@ -242,8 +187,6 @@
 			});
 		});
 	}
-
-
 
 	/*-------------------------------------------------------------------------------
 	  Multi-Lang
@@ -303,20 +246,15 @@
 		})
 	});
 
-
-
 	/*-------------------------------------------------------------------------------
-	  Portofolio
+	  Portfolio
 	-------------------------------------------------------------------------------*/
 
-	// Filter Selection
 	$('.btn').on('click', function() {
         var filter = $(this).data('filter');
-
         if ($('.item').hasClass('show')) {
 			$('.item').removeClass('show');
         }
-
         if (filter == '*') {
 			$('.item').each(function(){
 				$(this).addClass('show');
@@ -328,7 +266,6 @@
 				}
 			});
         }
-
         if($('.btn').hasClass('active')) {
 			$('.btn').removeClass('active');
         }
@@ -339,25 +276,6 @@
         $('.portofolio-web').height($('.portofolio-vid').height());
     });
 
-
-	// .portofolio-web detail
-	// $('.portofolio-web').on('click', function() {
-    //     // var title = $(this).find('.desc').html();
-    //     var imgSrc = $(this).find('img').attr('src');
-    //     $('#img-web').attr('src', imgSrc);
-    //     // $('#portofolio-title').html('<h2>'+title+'</h2>');
-    //     $('#portofolioWebDetail').modal('show');
-    // });
-
-	// $('#portofolioWebDetail').on('hidden.bs.modal', function (event) {
-    //     $('#img-web').attr('src', '');
-    // })
-	// $('#portofolioWebDetail').on('hide.bs.modal', function (event) {
-    //     $('#img-container').scrollTop(0);
-    // })
-	
-
-	// .portofolio-vid detail
 	$('.portofolio-vid').on('click', function() {
         var src = $(this).data('src');
         var title = $(this).find('.desc').html();
@@ -368,6 +286,5 @@
 
     $('#portofolioVidDetail').on('hidden.bs.modal', function (event) {
         $('#frame-yt').attr('src', '');
-    }) 
-
+    });
 }($));
