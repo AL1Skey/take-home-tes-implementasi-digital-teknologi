@@ -1,23 +1,23 @@
-<script lang="js" setup>
+<script setup>
 import { onMounted } from 'vue';
 import { ref } from 'vue';
 
 const config = useRuntimeConfig();
-const cms = ref({}); // Initialize with empty object
+const cms = useState('cms', () => null); // Initialize with null
 const loading = ref(true);
 
 async function getData(url) {
   try {
     console.log('Fetching data from:', url);
-    const { data, error } = await useFetch(url);
-    
-    if (error.value) {
-      console.error('API Error:', error.value);
-      throw new Error(error.value.message || 'Failed to fetch data');
+    const data = await $fetch(url);
+    console.log('Fetched data:', data);
+    if(data?.data?.data){
+      return data.data.data;
     }
-
-    console.log('Fetched data:', data.value);
-    return data.value || null;
+    if(data?.data){
+      return data.data;
+    }
+    return data || null;
   } catch (err) {
     console.error('Request failed:', err);
     return null;
@@ -27,17 +27,16 @@ async function getData(url) {
 async function runAll() {
   try {
     const [headerData, footerData, servicesData, projectData] = await Promise.all([
-      getData(`${config.public.apiBase}/public/headers`),
-      getData(`${config.public.apiBase}/public/footers`),
-      getData(`${config.public.apiBase}/public/services`),
-      getData(`${config.public.apiBase}/public/projects`)
+      await getData(`${config.public.apiBase}/public/headers`),
+      await getData(`${config.public.apiBase}/public/footers`),
+      await getData(`${config.public.apiBase}/public/services`),
+      await getData(`${config.public.apiBase}/public/projects`)
     ]);
-
     cms.value = {
-      header: headerData?.[0] || {}, // Handle potential null/undefined
-      footer: footerData?.[0] || {},
-      services: servicesData?.[0] || {},
-      projects: projectData || []
+      header: toValue(headerData) || {}, // Handle potential null/undefined
+      footer: toValue(footerData) || {},
+      services: toValue(servicesData) || {},
+      projects: toValue(projectData) || []
     };
 
     console.log("CMS Loaded:", cms.value);
@@ -81,9 +80,9 @@ onMounted(runAll);
     <div class="wrapper">
         <MainHeader :cms="cms?.header" />
       
-        <MainContent :cms="cms"/>
+        <MainContent/>
 
-        <Footer :cms="cms"/>
+        <Footer/>
 
       <div class="progress-nav">
         <ul id="menu">

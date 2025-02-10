@@ -1,7 +1,12 @@
 <script lang="ts" setup>
-defineProps({
+const props = defineProps({
   cms: Object
 })
+import { onMounted } from 'vue';
+
+// console.log("AAAAAAAAAAAA",props?.cms);
+// onMounted(() => {
+// });
 </script>
 
 <template>
