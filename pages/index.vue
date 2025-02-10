@@ -1,9 +1,30 @@
-<script lang="ts" setup>
+<script lang="js" setup>
 import { onMounted } from 'vue';
-
+import { ref } from 'vue';
+const config = useRuntimeConfig();
+const cms = ref(null);
+async function getData(url) {
+  console.log(url);
+  const {data,error} = await useFetch(url);
+  return data?.value;
+}
 
 const loading = ref(true);
 onMounted(async() => {
+  const response = await Promise.all([
+    getData(`${config.public.apiBase}/public/headers`),
+    getData(`${config.public.apiBase}/public/footers`),
+    getData(`${config.public.apiBase}/public/services`),
+    getData(`${config.public.apiBase}/public/projects`)
+  ]);
+  console.log(response);
+  cms.value = {
+    header: headerData,
+    footer: footerData,
+    services: servicesData,
+    projects: projectData
+  };
+  console.log("CMS")
   loading.value = false;
   await useScript( {src:'https://code.jquery.com/jquery-1.12.4.min.js',async: true, defer: true });
   await useScript( {src:'/assets/js/jquery.validate.min.js', async: true, defer: true });
@@ -26,11 +47,11 @@ onMounted(async() => {
       </div>
       <div class="body-piling" v-if="!loading">
     <div class="wrapper">
-        <MainHeader />
+        <MainHeader :="cms?.header" />
       
-        <MainContent/>
+        <MainContent :="cms"/>
 
-        <Footer/>
+        <Footer :="cms"/>
 
       <div class="progress-nav">
         <ul id="menu">

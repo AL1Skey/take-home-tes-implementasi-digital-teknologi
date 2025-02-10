@@ -1,5 +1,7 @@
 <script lang="ts" setup>
-
+defineProps({
+  cms: Object
+})
 </script>
 
 <template>

@@ -1,3 +1,8 @@
+<script setup>
+defineProps({
+  cms: Object
+})
+</script>
 <template>
     <footer id="footer" class="footer">
         <div class="container-fluid">
