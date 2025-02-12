@@ -1,7 +1,6 @@
 <script lang="ts" setup>
 import { onMounted } from 'vue';
 
-
 const loading = ref(true);
 onMounted(async() => {
   loading.value = false;

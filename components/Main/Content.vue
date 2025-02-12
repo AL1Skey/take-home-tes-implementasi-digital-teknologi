@@ -46,7 +46,7 @@
                   </g>
                 </svg>
               </div>
-              <div class="inside"><img src="/assets/img/slide1.png" alt="" width="70%" /></div>
+              <div class="inside"><img loading="lazy" src="/assets/img/slide1.png" alt="" width="70%" /></div>
             </div>
           </div>
         </div>
@@ -82,18 +82,18 @@
           <div class="col-md-1"></div>
           <div class="col-md-6 pl-5">
             <div class="slide-photo slide-photo-services">
-              <div class="inside"><img src="/assets/img/slide2.png" alt="" /></div>
+              <div class="inside"><img loading="lazy" src="/assets/img/slide2.png" alt="" /></div>
               <div class="image-card card2-1 animate-element delay8 fadeInRight">
-                <div class="image-card-body"><div class="inside"><img src="/assets/img/card2-1.png" alt="" /></div></div>
+                <div class="image-card-body"><div class="inside"><img loading="lazy" src="/assets/img/card2-1.png" alt="" /></div></div>
               </div>
               <div class="image-card card2-2 animate-element delay9 fadeInUp">
-                <div class="image-card-body"><div class="inside"><img src="/assets/img/card2-2.png" alt="" /></div></div>
+                <div class="image-card-body"><div class="inside"><img loading="lazy" src="/assets/img/card2-2.png" alt="" /></div></div>
               </div>
               <div class="image-card card2-3 animate-element delay10 fadeInUp">
-                <div class="image-card-body"><div class="inside"><img src="/assets/img/card2-3.png" alt="" /></div></div>
+                <div class="image-card-body"><div class="inside"><img loading="lazy" src="/assets/img/card2-3.png" alt="" /></div></div>
               </div>
               <div class="image-card image-card-dark card2-4 animate-element delay11 fadeInRight">
-                <div class="image-card-body"><div class="inside"><img src="/assets/img/card2-4.png" alt="" /></div></div>
+                <div class="image-card-body"><div class="inside"><img loading="lazy" src="/assets/img/card2-4.png" alt="" /></div></div>
               </div>
             </div>
           </div>
@@ -122,16 +122,16 @@
           <div class="col-md-5">
             <div class="slide-photo">
               <div class="image-card card3-1 animate-element delay8 zoomIn">
-                <div class="image-card-body"><div class="inside"><img src="/assets/img/slide3.png" alt="" /></div></div>
+                <div class="image-card-body"><div class="inside"><img loading="lazy" src="/assets/img/slide3.png" alt="" /></div></div>
               </div>
               <div class="image-card card3-2 image-card-dark animate-element delay12 fadeInUp">
-                <div class="image-card-body"><div class="inside"><img src="/assets/img/card3-2.png" alt="" /></div></div>
+                <div class="image-card-body"><div class="inside"><img loading="lazy" src="/assets/img/card3-2.png" alt="" /></div></div>
               </div>
               <div class="image-card card3-3 animate-element delay9 fadeInUp">
-                <div class="image-card-body"><div class="inside"><img src="/assets/img/card3-3.png" alt="" /></div></div>
+                <div class="image-card-body"><div class="inside"><img loading="lazy" src="/assets/img/card3-3.png" alt="" /></div></div>
               </div>
               <div class="image-card card3-4 animate-element delay13 fadeInLeft">
-                <div class="image-card-body"><div class="inside"><img src="/assets/img/card3-4.png" alt="" /></div></div>
+                <div class="image-card-body"><div class="inside"><img loading="lazy" src="/assets/img/card3-4.png" alt="" /></div></div>
               </div>
             </div>
           </div>
@@ -151,7 +151,7 @@
               <div class="slide-photo-bg-rounded photo-bg-education animate-element delay5 bounceIn">
                 <div class="inside">
                   <div class="education-image">
-                    <img src="/assets/img/slide4-1.png" alt="" />
+                    <img loading="lazy" src="/assets/img/slide4-1.png" alt="" />
                   </div>
                 </div>
               </div>
@@ -174,7 +174,7 @@
               <div class="slide-photo-bg-rounded photo-bg-experience animate-element delay7 bounceIn">
                 <div class="inside">
                   <div class="experience-image">
-                    <img src="/assets/img/slide4-2.png" alt="" />
+                    <img loading="lazy" src="/assets/img/slide4-2.png" alt="" />
                   </div>
                 </div>
               </div>
@@ -228,7 +228,7 @@
                 <div class="portofolio-web">
                   <picture>
                     <source type="image/webp" srcset="/assets/img/porto/web/porto-web1.webp">
-                    <img src="/assets/img/porto/web/porto-web1.png" alt="" />
+                    <img loading="lazy" src="/assets/img/porto/web/porto-web1.png" alt="" />
                   </picture>
                 </div>
               </div>
@@ -236,7 +236,7 @@
                 <div class="portofolio-web">
                   <picture>
                     <source type="image/webp" srcset="/assets/img/porto/web/porto-web2.webp">
-                    <img src="/assets/img/porto/web/porto-web2.png" alt="" />
+                    <img loading="lazy" src="/assets/img/porto/web/porto-web2.png" alt="" />
                   </picture>
                 </div>
               </div>
@@ -244,7 +244,7 @@
                 <div class="portofolio-web">
                   <picture>
                     <source type="image/webp" srcset="/assets/img/porto/web/porto-web3.webp">
-                    <img src="/assets/img/porto/web/porto-web3.png" alt="" />
+                    <img loading="lazy" src="/assets/img/porto/web/porto-web3.png" alt="" />
                   </picture>
                 </div>
               </div>
@@ -252,7 +252,7 @@
                 <div class="portofolio-web">
                   <picture>
                     <source type="image/webp" srcset="/assets/img/porto/web/porto-web4.webp">
-                    <img src="/assets/img/porto/web/porto-web4.png" alt="" />
+                    <img loading="lazy" src="/assets/img/porto/web/porto-web4.png" alt="" />
                   </picture>
                 </div>
               </div>
@@ -262,7 +262,7 @@
                 <div class="portofolio-web">
                   <picture>
                     <source type="image/webp" srcset="/assets/img/porto/app/porto-app1.webp">
-                    <img src="/assets/img/porto/app/porto-app1.png" alt="" />
+                    <img loading="lazy" src="/assets/img/porto/app/porto-app1.png" alt="" />
                   </picture>
                 </div>
               </div>
@@ -272,7 +272,7 @@
                 <div class="portofolio-vid" data-src="f4dpBtf7rB8">
                   <picture>
                     <source type="image/webp" srcset="/assets/img/porto/vid/porto-vid1.webp">
-                    <img src="/assets/img/porto/vid/porto-vid1.png" alt="" />
+                    <img loading="lazy" src="/assets/img/porto/vid/porto-vid1.png" alt="" />
                   </picture>
                   <div class="portofolio-desc">
                     <div class="desc">Sosialisasi Kawasan Niaga Cariu Di KEMENTAN</div>
@@ -283,7 +283,7 @@
                 <div class="portofolio-vid" data-src="dq5bnR8W_TE">
                   <picture>
                     <source type="image/webp" srcset="/assets/img/porto/vid/porto-vid2.webp">
-                    <img src="/assets/img/porto/vid/porto-vid2.png" alt="" />
+                    <img loading="lazy" src="/assets/img/porto/vid/porto-vid2.png" alt="" />
                   </picture>
                   <div class="portofolio-desc">
                     <div class="desc">#SantriStory</div>
@@ -294,7 +294,7 @@
                 <div class="portofolio-vid" data-src="Lm6pbQJI1Bw">
                   <picture>
                     <source type="image/webp" srcset="/assets/img/porto/vid/porto-vid3.webp">
-                    <img src="/assets/img/porto/vid/porto-vid3.png" alt="" />
+                    <img loading="lazy" src="/assets/img/porto/vid/porto-vid3.png" alt="" />
                   </picture>
                   <div class="portofolio-desc">
                     <div class="desc">Anisa Rahma - Rahasia Investasi Syariah (Kavling Prosyar)</div>
@@ -305,7 +305,7 @@
                 <div class="portofolio-vid" data-src="kLCH5P4H7Ac">
                   <picture>
                     <source type="image/webp" srcset="/assets/img/porto/vid/porto-vid4.webp">
-                    <img src="/assets/img/porto/vid/porto-vid4.png" alt="" />
+                    <img loading="lazy" src="/assets/img/porto/vid/porto-vid4.png" alt="" />
                   </picture>
                   <div class="portofolio-desc">
                     <div class="desc">Tumbuh & Berbuah pohon kurma di Indonesia - Muhammad Jais S.SY,M.E.I</div>
@@ -316,7 +316,7 @@
                 <div class="portofolio-vid" data-src="QP0WyRPosI8">
                   <picture>
                     <source type="image/webp" srcset="/assets/img/porto/vid/porto-vid5.webp">
-                    <img src="/assets/img/porto/vid/porto-vid5.png" alt="" />
+                    <img loading="lazy" src="/assets/img/porto/vid/porto-vid5.png" alt="" />
                   </picture>
                   <div class="portofolio-desc">
                     <div class="desc">Kaveling Prosyar Cipanas</div>
@@ -327,7 +327,7 @@
                 <div class="portofolio-vid" data-src="agTE8s27gHA">
                   <picture>
                     <source type="image/webp" srcset="/assets/img/porto/vid/porto-vid6.webp">
-                    <img src="/assets/img/porto/vid/porto-vid6.png" alt="" />
+                    <img loading="lazy" src="/assets/img/porto/vid/porto-vid6.png" alt="" />
                   </picture>
                   <div class="portofolio-desc">
                     <div class="desc">TRAILER Abdur Ananda - Menantu untuk Mama</div>
@@ -338,7 +338,7 @@
                 <div class="portofolio-vid" data-src="i5n9JblAYJ0">
                   <picture>
                     <source type="image/webp" srcset="/assets/img/porto/vid/porto-vid7.webp">
-                    <img src="/assets/img/porto/vid/porto-vid7.png" alt="" />
+                    <img loading="lazy" src="/assets/img/porto/vid/porto-vid7.png" alt="" />
                   </picture>
                   <div class="portofolio-desc">
                     <div class="desc">#VlogAbdurAnanda - KETEMU CALON MERTUA</div>
@@ -349,7 +349,7 @@
                 <div class="portofolio-vid" data-src="R2LYM_rqAR4">
                   <picture>
                     <source type="image/webp" srcset="/assets/img/porto/vid/porto-vid8.webp">
-                    <img src="/assets/img/porto/vid/porto-vid8.png" alt="" />
+                    <img loading="lazy" src="/assets/img/porto/vid/porto-vid8.png" alt="" />
                   </picture>
                   <div class="portofolio-desc">
                     <div class="desc">The Green Student Village</div>
@@ -360,7 +360,7 @@
                 <div class="portofolio-vid" data-src="G-sDH4VgVM&t">
                   <picture>
                     <source type="image/webp" srcset="/assets/img/porto/vid/porto-vid9.webp">
-                    <img src="/assets/img/porto/vid/porto-vid9.png" alt="" />
+                    <img loading="lazy" src="/assets/img/porto/vid/porto-vid9.png" alt="" />
                   </picture>
                   <div class="portofolio-desc">
                     <div class="desc">Love Story</div>
@@ -371,7 +371,7 @@
                 <div class="portofolio-vid" data-src="LNag1zNdYfk">
                   <picture>
                     <source type="image/webp" srcset="/assets/img/porto/vid/porto-vid10.webp">
-                    <img src="/assets/img/porto/vid/porto-vid10.png" alt="" />
+                    <img loading="lazy" src="/assets/img/porto/vid/porto-vid10.png" alt="" />
                   </picture>
                   <div class="portofolio-desc">
                     <div class="desc">Kerudung Ansania Saudia Polosan</div>
@@ -382,7 +382,7 @@
                 <div class="portofolio-vid" data-src="QF2d25Hq1dY">
                   <picture>
                     <source type="image/webp" srcset="/assets/img/porto/vid/porto-vid11.webp">
-                    <img src="/assets/img/porto/vid/porto-vid11.png" alt="" />
+                    <img loading="lazy" src="/assets/img/porto/vid/porto-vid11.png" alt="" />
                   </picture>
                   <div class="portofolio-desc">
                     <div class="desc">ITB ultra maraton</div>
@@ -395,7 +395,7 @@
                 <div class="portofolio-vid" data-src="6aAPcKV1S94">
                   <picture>
                     <source type="image/webp" srcset="/assets/img/porto/anim/porto-anim2.webp">
-                    <img src="/assets/img/porto/anim/porto-anim2.png" alt="" />
+                    <img loading="lazy" src="/assets/img/porto/anim/porto-anim2.png" alt="" />
                   </picture>
                   <div class="portofolio-desc">
                     <div class="desc">Bagaimana Supaya Puasamu Bisa Naik Level</div>
@@ -406,7 +406,7 @@
                 <div class="portofolio-vid" data-src="zEvWpliH5xs">
                   <picture>
                     <source type="image/webp" srcset="/assets/img/porto/anim/porto-anim3.webp">
-                    <img src="/assets/img/porto/anim/porto-anim3.png" alt="" />
+                    <img loading="lazy" src="/assets/img/porto/anim/porto-anim3.png" alt="" />
                   </picture>
                   <div class="portofolio-desc">
                     <div class="desc">Anda perlu tahu 3 jenis puasa ini</div>
@@ -417,7 +417,7 @@
                 <div class="portofolio-vid" data-src="Gb7JZZi-OJw">
                   <picture>
                     <source type="image/webp" srcset="/assets/img/porto/anim/porto-anim4.webp">
-                    <img src="/assets/img/porto/anim/porto-anim4.png" alt="" />
+                    <img loading="lazy" src="/assets/img/porto/anim/porto-anim4.png" alt="" />
                   </picture>
                   <div class="portofolio-desc">
                     <div class="desc">Kampoeng Kurma - www.kampoengkurma.com</div>
@@ -428,7 +428,7 @@
                 <div class="portofolio-vid" data-src="wDdpT8pEyq8">
                   <picture>
                     <source type="image/webp" srcset="/assets/img/porto/anim/porto-anim5.webp">
-                    <img src="/assets/img/porto/anim/porto-anim5.png" alt="" />
+                    <img loading="lazy" src="/assets/img/porto/anim/porto-anim5.png" alt="" />
                   </picture>
                   <div class="portofolio-desc">
                     <div class="desc">Kampoeng Kurma</div>
@@ -439,7 +439,7 @@
                 <div class="portofolio-vid" data-src="QVIbCwodPT0">
                   <picture>
                     <source type="image/webp" srcset="/assets/img/porto/anim/porto-anim6.webp">
-                    <img src="/assets/img/porto/anim/porto-anim6.png" alt="" />
+                    <img loading="lazy" src="/assets/img/porto/anim/porto-anim6.png" alt="" />
                   </picture>
                   <div class="portofolio-desc">
                     <div class="desc">Ruko Niaga Di Kawasan Niaga Cariu</div>
@@ -450,7 +450,7 @@
                 <div class="portofolio-vid" data-src="jrqMmSxQX-g">
                   <picture>
                     <source type="image/webp" srcset="/assets/img/porto/anim/porto-anim7.webp">
-                    <img src="/assets/img/porto/anim/porto-anim7.png" alt="" />
+                    <img loading="lazy" src="/assets/img/porto/anim/porto-anim7.png" alt="" />
                   </picture>
                   <div class="portofolio-desc">
                     <div class="desc">Apa sih Giri Wangi Village itu ?</div>
@@ -461,7 +461,7 @@
                 <div class="portofolio-vid" data-src="zAF6Wok90Us">
                   <picture>
                     <source type="image/webp" srcset="/assets/img/porto/anim/porto-anim8.webp">
-                    <img src="/assets/img/porto/anim/porto-anim8.png" alt="" />
+                    <img loading="lazy" src="/assets/img/porto/anim/porto-anim8.png" alt="" />
                   </picture>
                   <div class="portofolio-desc">
                     <div class="desc">Get Parking 3D Animation</div>
@@ -472,7 +472,7 @@
                 <div class="portofolio-vid" data-src="AsOG71T0adg">
                   <picture>
                     <source type="image/webp" srcset="/assets/img/porto/anim/porto-anim9.webp">
-                    <img src="/assets/img/porto/anim/porto-anim9.png" alt="" />
+                    <img loading="lazy" src="/assets/img/porto/anim/porto-anim9.png" alt="" />
                   </picture>
                   <div class="portofolio-desc">
                     <div class="desc">Animasi Kuliah ke Luar Negeri 2D Video Explainer</div>
@@ -483,7 +483,7 @@
                 <div class="portofolio-vid" data-src="YJVcKRzBVYg">
                   <picture>
                     <source type="image/webp" srcset="/assets/img/porto/anim/porto-anim10.webp">
-                    <img src="/assets/img/porto/anim/porto-anim10.png" alt="" />
+                    <img loading="lazy" src="/assets/img/porto/anim/porto-anim10.png" alt="" />
                   </picture>
                   <div class="portofolio-desc">
                     <div class="desc">MPC Reborn Mograph</div>
@@ -494,7 +494,7 @@
                 <div class="portofolio-vid" data-src="2u3_khSSzL8">
                   <picture>
                     <source type="image/webp" srcset="/assets/img/porto/anim/porto-anim11.webp">
-                    <img src="/assets/img/porto/anim/porto-anim11.png" alt="" />
+                    <img loading="lazy" src="/assets/img/porto/anim/porto-anim11.png" alt="" />
                   </picture>
                   <div class="portofolio-desc">
                     <div class="desc">Official Mon Heroes Teaser 2D Version</div>
@@ -505,7 +505,7 @@
                 <div class="portofolio-vid" data-src="mko8WPLA7EM">
                   <picture>
                     <source type="image/webp" srcset="/assets/img/porto/anim/porto-anim12.webp">
-                    <img src="/assets/img/porto/anim/porto-anim12.png" alt="" />
+                    <img loading="lazy" src="/assets/img/porto/anim/porto-anim12.png" alt="" />
                   </picture>
                   <div class="portofolio-desc">
                     <div class="desc">OK Jurnal</div>
@@ -529,7 +529,7 @@
           <div class="col-md-6">
             <div class="animate-element delay5 fadeInUp">
               <div class="title-mini title-mini-margin-lg text-primary"> clients  </div>
-              <h3 class="slide-title font-custom">Clients and collaborators.</h3>
+              <h2 class="slide-title font-custom">Clients and collaborators.</h2>
             </div>
             <div class="slide-descr animate-element delay7 fadeInUp">We are fortunate to work with and for people from some <strong>amazing organizations</strong>.</div>
           </div>
@@ -540,7 +540,7 @@
                 <div class="portfolio-item-photo">
                   <picture>
                     <source type="image/webp" srcset="/assets/img/client/client1.webp">
-                    <img src="/assets/img/client/client1.png" alt="" />
+                    <img loading="lazy" src="/assets/img/client/client1.png" alt="" />
                   </picture>
                 </div>
               </div>
@@ -548,7 +548,7 @@
                 <div class="portfolio-item-photo">
                   <picture>
                     <source type="image/webp" srcset="/assets/img/client/client2.webp">
-                    <img src="/assets/img/client/client2.png" alt="" />
+                    <img loading="lazy" src="/assets/img/client/client2.png" alt="" />
                   </picture>
                 </div>
               </div>
@@ -556,7 +556,7 @@
                 <div class="portfolio-item-photo">
                   <picture>
                     <source type="image/webp" srcset="/assets/img/client/client3.webp">
-                    <img src="/assets/img/client/client3.png" alt="" />
+                    <img loading="lazy" src="/assets/img/client/client3.png" alt="" />
                   </picture>
                 </div>
               </div>
@@ -564,7 +564,7 @@
                 <div class="portfolio-item-photo">
                   <picture>
                     <source type="image/webp" srcset="/assets/img/client/client4.webp">
-                    <img src="/assets/img/client/client4.png" alt="" />
+                    <img loading="lazy" src="/assets/img/client/client4.png" alt="" />
                   </picture>
                 </div>
               </div>
@@ -572,7 +572,7 @@
                 <div class="portfolio-item-photo">
                   <picture>
                     <source type="image/webp" srcset="/assets/img/client/client5.webp">
-                    <img src="/assets/img/client/client5.png" alt="" />
+                    <img loading="lazy" src="/assets/img/client/client5.png" alt="" />
                   </picture>
                 </div>
               </div>
@@ -580,7 +580,7 @@
                 <div class="portfolio-item-photo">
                   <picture>
                     <source type="image/webp" srcset="/assets/img/client/client6.webp">
-                    <img src="/assets/img/client/client6.png" alt="" />
+                    <img loading="lazy" src="/assets/img/client/client6.png" alt="" />
                   </picture>
                 </div>
               </div>
@@ -588,7 +588,7 @@
                 <div class="portfolio-item-photo">
                   <picture>
                     <source type="image/webp" srcset="/assets/img/client/client7.webp">
-                    <img src="/assets/img/client/client7.png" alt="" />
+                    <img loading="lazy" src="/assets/img/client/client7.png" alt="" />
                   </picture>
                 </div>
               </div>
@@ -596,7 +596,7 @@
                 <div class="portfolio-item-photo">
                   <picture>
                     <source type="image/webp" srcset="/assets/img/client/client8.webp">
-                    <img src="/assets/img/client/client8.png" alt="" />
+                    <img loading="lazy" src="/assets/img/client/client8.png" alt="" />
                   </picture>
                 </div>
               </div>
@@ -604,7 +604,7 @@
                 <div class="portfolio-item-photo">
                   <picture>
                     <source type="image/webp" srcset="/assets/img/client/client9.webp">
-                    <img src="/assets/img/client/client9.png" alt="" />
+                    <img loading="lazy" src="/assets/img/client/client9.png" alt="" />
                   </picture>
                 </div>
               </div>
@@ -612,7 +612,7 @@
                 <div class="portfolio-item-photo">
                   <picture>
                     <source type="image/webp" srcset="/assets/img/client/client10.webp">
-                    <img src="/assets/img/client/client10.png" alt="" />
+                    <img loading="lazy" src="/assets/img/client/client10.png" alt="" />
                   </picture>
                 </div>
               </div>
@@ -620,7 +620,7 @@
                 <div class="portfolio-item-photo">
                   <picture>
                     <source type="image/webp" srcset="/assets/img/client/client11.webp">
-                    <img src="/assets/img/client/client11.png" alt="" />
+                    <img loading="lazy" src="/assets/img/client/client11.png" alt="" />
                   </picture>
                 </div>
               </div>
@@ -628,7 +628,7 @@
                 <div class="portfolio-item-photo">
                   <picture>
                     <source type="image/webp" srcset="/assets/img/client/client12.webp">
-                    <img src="/assets/img/client/client12.png" alt="" />
+                    <img loading="lazy" src="/assets/img/client/client12.png" alt="" />
                   </picture>
                 </div>
               </div>
@@ -636,7 +636,7 @@
                 <div class="portfolio-item-photo">
                   <picture>
                     <source type="image/webp" srcset="/assets/img/client/client13.webp">
-                    <img src="/assets/img/client/client13.png" alt="" />
+                    <img loading="lazy" src="/assets/img/client/client13.png" alt="" />
                   </picture>
                 </div>
               </div>
@@ -644,7 +644,7 @@
                 <div class="portfolio-item-photo">
                   <picture>
                     <source type="image/webp" srcset="/assets/img/client/client14.webp">
-                    <img src="/assets/img/client/client14.png" alt="" />
+                    <img loading="lazy" src="/assets/img/client/client14.png" alt="" />
                   </picture>
                 </div>
               </div>
@@ -652,7 +652,7 @@
                 <div class="portfolio-item-photo">
                   <picture>
                     <source type="image/webp" srcset="/assets/img/client/client15.webp">
-                    <img src="/assets/img/client/client15.png" alt="" />
+                    <img loading="lazy" src="/assets/img/client/client15.png" alt="" />
                   </picture>
                 </div>
               </div>

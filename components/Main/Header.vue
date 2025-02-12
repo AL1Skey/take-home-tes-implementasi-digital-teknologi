@@ -9,7 +9,7 @@
             <a href="#About" class="brand-name">Victory <span class="brand-name-s">Studio</span></a>
           </div>
 
-          <button class="nav-toggle-btn a-nav-toggle">
+          <button name="button" class="nav-toggle-btn a-nav-toggle">
             <span class="hamburger">
               <span class="top-bun"></span>
               <span class="meat"></span>

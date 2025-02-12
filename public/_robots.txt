@@ -1,0 +1,8 @@
+# _robots.txt untuk https://jasawebsite.victorystudio.co.id
+# Mengizinkan semua mesin pencari untuk meng-crawl seluruh situs
+
+User-agent: *
+Allow: /
+
+# Sitemap: pastikan URL sitemap Anda sudah benar
+Sitemap: https://victorystudio.co.id/sitemap.xml
