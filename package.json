@@ -3,9 +3,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "rmdir /s /q .nuxt && nuxt build",
-    "dev": "rmdir /s /q .nuxt && nuxt dev",
-    "generate": "rmdir /s /q .nuxt && nuxt generate",
+    "build": " nuxt build && rmdir /s /q .nuxt ",
+    "dev": " nuxt dev && rmdir /s /q .nuxt ",
+    "generate": " nuxt generate && rmdir /s /q .nuxt ",
     "clean-windows": "rmdir /s /q .nuxt",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"

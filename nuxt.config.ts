@@ -9,7 +9,7 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title: 'VictoryStudio',
+      title: 'Test Nuxt App',
       meta: [
         { charset: 'utf-8' },
         { 
@@ -18,7 +18,7 @@ export default defineNuxtConfig({
         },
         { 
           name: 'description', 
-          content: 'Victory Studio - Creative Portfolio HTML Template' 
+          content: 'Test Nuxt App - Creative Portfolio HTML Template' 
         },
         { 
           name: 'author', 
@@ -30,7 +30,7 @@ export default defineNuxtConfig({
         }
       ],
       link: [
-        { rel: 'shortcut icon', href: '/assets/img/logo.png' },
+        // { rel: 'shortcut icon', href: '/assets/img/logo.png' },
         { rel: 'stylesheet', href: '/assets/css/bootstrap.min.css' },
         { rel: 'stylesheet', href: '/assets/css/jquery.pagepiling.css' },
         { rel: 'stylesheet', href: '/assets/css/owl.carousel.min.css' },

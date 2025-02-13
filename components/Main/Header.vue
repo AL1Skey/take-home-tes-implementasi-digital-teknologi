@@ -13,7 +13,7 @@ import { onMounted } from 'vue';
        <header id="header" class="header">
         <div class="container-fluid">
           <div class="brand">
-            <a href="#About" class="brand-name">Victory <span class="brand-name-s">Studio</span></a>
+            <a href="#About" class="brand-name">Adam <span class="brand-name-s">Nur Ramadan</span></a>
           </div>
 
           <button class="nav-toggle-btn a-nav-toggle">
