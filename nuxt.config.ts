@@ -22,15 +22,15 @@ export default defineNuxtConfig({
         },
         { 
           name: 'keywords', 
-          content: 'web development, international website, e-commerce solutions, responsive design, SEO optimization, full-stack development, professional web agency,Jasa Pembuatan Website, Jasa Pembuatan Website Terbaik, Jasa Pembuatan Website Murah, Jasa Pembuatan Website Profesional, Jasa Pembuatan Website Indonesia, Jasa Pembuatan Website Terpercaya, Jasa Pembuatan Website Terbaik, Jasa pembuatan website, Jasa pembuatan website terbaik, Jasa pembuatan website murah, Jasa pembuatan website profesional, Jasa pembuatan website ASEAN, Jasa pembuatan website terpercaya, jasa pembuatan website terbaik' 
+          content: 'web development, Video Production,Video Marketing, Media Production,Digital Video Marketing,Professional Video Services,Promotional Video Production,Creative Video Production, Jasa Video Marketing,Produksi Video Profesional,Layanan Video Digital,Produksi Video Perusahaan,Video Promosi Perusahaan,Video Kreatif Indonesia, international website, e-commerce solutions, responsive design, SEO optimization, full-stack development, professional web agency,Jasa Pembuatan Website, Jasa Pembuatan Website Terbaik, Jasa Pembuatan Website Murah, Jasa Pembuatan Website Profesional, Jasa Pembuatan Website Indonesia, Jasa Pembuatan Website Terpercaya, Jasa Pembuatan Website Terbaik, Jasa pembuatan website, Jasa pembuatan website terbaik, Jasa pembuatan website murah, Jasa pembuatan website profesional, Jasa pembuatan website ASEAN, Jasa pembuatan website terpercaya, jasa pembuatan website terbaik' 
         },
         // Open Graph
         { property: 'og:type', content: 'website' },
-        { property: 'og:locale', content: 'en_US' },
+        { property: 'og:locale', content: 'en_GB' },
         { property: 'og:locale:alternate', content: 'id_ID' },
         { property: 'og:site_name', content: 'Victory Studio' },
-        { property: 'og:title', content: 'Victory Studio | Global Website Development Services' },
-        { property: 'og:description', content: 'Professional website development for international and local businesses. Custom web solutions with SEO optimization.' },
+        { property: 'og:title', content: 'Victory Studio | Global Website and Video Development Services' },
+        { property: 'og:description', content: 'Professional website and video development for international and local businesses. Custom web solutions with SEO optimization.' },
         { property: 'og:image', content: '/assets/img/logo.png' },
         { property: 'og:url', content: 'https://victorystudio.co.id' },
         
